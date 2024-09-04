@@ -9,8 +9,21 @@ import SwiftUI
 import Foundation
 
 struct CircularShape: Shape {
+    
+    
     var percent : Double
     var startAngle : Double
+    
+    typealias AnimatableData = Double
+    var animatableData: Double {
+        get {
+            return percent
+        }
+        set{
+            percent = newValue
+        }
+    }
+    
 
     init(percent: Double = 100, startAngle : Double = -90) {
         self.percent = percent
