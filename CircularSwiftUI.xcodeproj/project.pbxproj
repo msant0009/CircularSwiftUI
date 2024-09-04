@@ -12,6 +12,7 @@
 		A303459C2C87FD9D00EFC31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A303459B2C87FD9D00EFC31D /* Assets.xcassets */; };
 		A303459F2C87FD9D00EFC31D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A303459E2C87FD9D00EFC31D /* Preview Assets.xcassets */; };
 		A30345A62C87FDD000EFC31D /* CircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30345A52C87FDD000EFC31D /* CircularShape.swift */; };
+		A30345A82C88012900EFC31D /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30345A72C88012900EFC31D /* Circular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A303459B2C87FD9D00EFC31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A303459E2C87FD9D00EFC31D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A30345A52C87FDD000EFC31D /* CircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShape.swift; sourceTree = "<group>"; };
+		A30345A72C88012900EFC31D /* Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				A30345972C87FD9C00EFC31D /* CircularSwiftUIApp.swift */,
 				A30345992C87FD9C00EFC31D /* ContentView.swift */,
 				A30345A52C87FDD000EFC31D /* CircularShape.swift */,
+				A30345A72C88012900EFC31D /* Circular.swift */,
 				A303459B2C87FD9D00EFC31D /* Assets.xcassets */,
 				A303459D2C87FD9D00EFC31D /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				A30345A62C87FDD000EFC31D /* CircularShape.swift in Sources */,
 				A303459A2C87FD9C00EFC31D /* ContentView.swift in Sources */,
+				A30345A82C88012900EFC31D /* Circular.swift in Sources */,
 				A30345982C87FD9C00EFC31D /* CircularSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
